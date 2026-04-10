@@ -6,7 +6,7 @@
 
 An AI-powered terminal assistant that translates plain English into safe, executable shell commands across eight environments. Bashly uses AI models via OpenRouter (free tier available).
 
-![Environment selection menu](menu.png)
+![Environment selection menu](assets/menu.png)
 
 ---
 
@@ -20,7 +20,7 @@ An AI-powered terminal assistant that translates plain English into safe, execut
 
 **Explicit confirmation.** Bashly never executes a command without user approval. Commands can be run locally, copied for remote systems, or explained on request.
 
-![Command suggestion and execution](preview.png)
+![Command suggestion and execution](assets/preview.png)
 
 ---
 
