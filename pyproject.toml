@@ -1,0 +1,28 @@
+[project]
+name = "bashly-cli"
+version = "0.1.4"
+description = "AI-powered cross-environment terminal assistant"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  {name = "Albin"}
+]
+
+dependencies = [
+    "openai>=1.0.0",
+    "pyperclip>=1.11.0",
+    "pywin32>=311; sys_platform == 'win32'",
+    "rich>=14.3.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/albinnnnn/bashly"
+Repository = "https://github.com/albinnnnn/bashly"
+Issues = "https://github.com/albinnnnn/bashly/issues"
+
+[project.scripts]
+bashly = "bashly.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

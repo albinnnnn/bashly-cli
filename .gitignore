@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+eggs/
+*.egg
+*.whl
+*.tar.gz
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Local config
+*bashly_config.json
+uv.lock
